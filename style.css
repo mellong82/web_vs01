@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+    font-family: Pretendard;
+}
+
+.wrap{
+    background-image: url(https://i.postimg.cc/jjhbjvgy/Artboard-2.png);
+    width: 100vw;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logoimg{
+    float: left;
+    margin-top: 27px;
+    margin-left: 50px;
+    /* margin-right: 180px; */
+    /* background-color: orange; */
+}
+.menu{
+    /* background-color: green; */
+    /* float: right; */
+    width: 100%;
+    text-align: center;
+}
+.inputbutton> form > input{
+    border: none;
+    background: #00000025;
+    width: 200px;
+    height: 30px;
+    padding-left: 10px;
+}
+.inputbutton> form > span{
+    width: 50px;
+    color: #000;
+    margin-left: 10px;
+}
+.menu2{
+    /* background-color: blue; */
+    float: right;
+    margin-right: 50px;
+}
+.menu2 > li{
+    line-height: 108px;
+    display: inline-block;
+    font-size: 10pt;
+    font-weight: 500;
+}
+.menu2 > li:first-child{
+    margin-right: 50px;
+}
+.menu > li{
+    /* background-color: red; */
+    display: inline-block;
+    margin-left: 3%;
+    margin-right: 3%;
+    line-height: 108px;
+    font-size: 10pt;
+    font-weight: 500;
+}
+h1{
+    margin-left: 150px;
+    margin-top: 159px;
+    font-size: 60px;
+    font-weight: 800;
+}
+h2{
+    margin-left: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 100;
+}
+h3{
+    font-size: 36px;
+    color: #9BE23E;
+}
+p{
+    color: #0e0e0e;
+    font-size: 16px;
+    font-weight: 200;
+}
+#infomt{
+    display: inline-block;
+    font-size: 36px;
+    color: #9BE23E;
+    text-align: left;
+    font-weight: 800;
+    margin-bottom: 10px;
+} /**실시간탐방통제정보 왼쪽정렬 텍스트 **/
+.cta{
+    width: 114px;
+    height: 33px;
+    background-color: black;
+    color: white;
+    font-size: 11.5px;
+    border-radius: 50px;
+    border: 0px solid black;
+    padding: 7px 30px;
+    line-height: 33px;
+    text-align: center;
+    margin-left: 150px;
+}
+.cta:hover{
+    background-color: gray;
+    font-weight: 300;
+}
+.section{
+    margin-top: 300px;
+    margin-bottom: 110px;
+    text-align: center;
+    width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.buttons{
+    background-color: #fff;
+    box-shadow: -8px 8px 23px 0px #00000035;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    width: 1080px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.buttons > li{
+    display: inline-block;
+    margin: 0px 40px 0px 40px;
+}
+.buttons > li:hover{
+    background-color: rgb(231, 231, 231);
+}
+.buttons > li > img{
+    margin-bottom: 24px;
+}
+.article{
+    width: 1280px;
+    /* background-color: red; */
+}
+.article > h3{
+    margin-bottom: 64px;
+    margin-top: 100px;
+}
+.article > .imglist > .img_group > a > img{
+    transition: all 0.1s linear;
+}
+.article > .imglist > .img_group > a > img:hover{
+    transform: scale(1.04);
+    overflow: hidden;
+}
+.imglist{
+    width: 1293px;
+}
+.image{
+    text-align: left;
+    width: 411px;
+    display: block;
+    color: #000;
+    float: left;
+    margin-right: 20px;
+}
+.image_name{
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+.clearfix{
+    clear: right;
+    clear: left;
+}
+.section2{
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.infott{
+    display: inline-block;
+}
+.box{
+    background-color: #F5FBFF;
+    box-shadow: -8px 8px 24px 0px #00000025;
+    border-radius: 40px;
+    width: 1800px;
+    height: 300px;
+    bottom: 220px;
+    right: -350px;
+    display: inline-block;
+    position: relative;
+}
+
+.box > .reds{
+    background-color: #EC6C6C;
+}
+.box > .oranges{
+    background-color: #E7AF5C;
+}
+.box > .nor{
+    background-color: #E9E9E9;
+}
+.box > .norfunc{
+    position: relative;
+    left: 40px;
+    margin-right: 20px;
+}
+.box > .con_info{
+    display: inline-block;
+    /* background-color: #E9E9E9; */
+    width: 90px;
+    height: 41px;
+    line-height: 41px;
+    text-align: center;
+    margin-right: 19px;
+    top: 30px;
+}
+.box > .rside{
+    position: relative;
+    left: 717px;
+}
+.footer{
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer > img{
+    float: left;
+    margin-top: 10px;
+}
+.footer > p{
+    float: left;
+}
+@media (max-width:768px){
+    .article{
+        width: 768px;
+    }
+    .buttons{
+        width: 736px;
+        margin-left: 0;
+
+    }
+}

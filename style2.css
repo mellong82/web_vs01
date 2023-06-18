@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+    font-family: Pretendard;
+}
+
+.wrap{
+    background-image: url(https://i.postimg.cc/zXVS91kg/Artboard-1-copy-17.png);
+    width: 100vw;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logoimg{
+    float: left;
+    margin-top: 27px;
+    margin-left: 50px;
+    /* margin-right: 180px; */
+    /* background-color: orange; */
+}
+.menu{
+    /* background-color: green; */
+    /* float: right; */
+    width: 100%;
+    text-align: center;
+}
+.inputbutton> form > input{
+    border: none;
+    background: #00000025;
+    width: 200px;
+    height: 30px;
+    padding-left: 10px;
+}
+.inputbutton> form > span{
+    width: 50px;
+    color: #000;
+    margin-left: 10px;
+}
+.menu2{
+    /* background-color: blue; */
+    float: right;
+    margin-right: 50px;
+}
+.menu2 > li{
+    line-height: 108px;
+    display: inline-block;
+    font-size: 10pt;
+    font-weight: 500;
+}
+.menu2 > li:first-child{
+    margin-right: 50px;
+}
+.menu > li{
+    /* background-color: red; */
+    display: inline-block;
+    margin-left: 3%;
+    margin-right: 3%;
+    line-height: 108px;
+    font-size: 10pt;
+    font-weight: 500;
+}
+h1{
+    margin-left: 150px;
+    margin-top: 159px;
+    font-size: 60px;
+    font-weight: 800;
+}
+h2{
+    margin-left: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 100;
+}
+h3{
+    font-size: 36px;
+    color: #9BE23E;
+    text-align: center;
+}
+p{
+    color: #0e0e0e;
+    font-size: 16px;
+    font-weight: 200;
+}
+#infomt{
+    display: inline-block;
+    font-size: 36px;
+    color: #9BE23E;
+    text-align: left;
+    font-weight: 800;
+    margin-bottom: 10px;
+}/**실시간탐방통제정보 왼쪽정렬 텍스트 **/
+.cta{
+    width: 114px;
+    height: 33px;
+    background-color: black;
+    color: white;
+    font-size: 11.5px;
+    border-radius: 50px;
+    border: 0px solid black;
+    padding: 7px 30px;
+    line-height: 33px;
+    text-align: center;
+    margin-left: 150px;
+}
+.cta:hover{
+    background-color: gray;
+    font-weight: 300;
+}
+.cta2{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border-radius: 50px;
+    border: 0px solid black;
+    padding: 10px 45px;
+    line-height: 45px;
+}
+.cta2div{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.cta2:hover{
+    background-color: gray;
+    font-weight: 300;
+}
+
+.section1{
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section1 > h3{
+    margin-top: 300px;
+    margin-bottom: 25px;
+}
+.bt{
+    background-color: #E0F2FF;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.title{
+    font-size: 24px;
+    color: #9BE23E;
+    font-weight: 600;
+}
+.paragraph{
+    color: #0e0e0e;
+    font-size: 14px;
+    font-weight: 200;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.footer{
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer > img{
+    float: left;
+    margin-top: 10px;
+}
+.footer > p{
+    float: left;
+}
+@media (max-width:768px){
+    .wrap{
+        width: 100vw;
+    }
+    .section1 > img{
+        width: 768px;
+    }
+    h3{
+        width: 768px;
+    }
+    p{
+        width: 768px;
+    }
+    .cta2div{
+        width: 768px;
+    }
+}
